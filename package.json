@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-ts-express",
+  "type": "module",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.7.1",
+  "description": "A typescript monorepo with express.",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.18.0",
+    "eslint": "^9.31.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
