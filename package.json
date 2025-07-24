@@ -1,9 +1,9 @@
 {
-  "name": "monorepo-ts-express",
+  "name": "web-chat",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@10.7.1",
-  "description": "A typescript monorepo with express.",
+  "description": "Web chat.",
   "author": "",
   "license": "ISC",
   "keywords": [],
